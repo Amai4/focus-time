@@ -30,6 +30,10 @@ A front-end web application built with **React.js**, **Material UI**, **CSS3**, 
 
 4. Open http://localhost:5173/
 
+
+## 🌐 Live Demo
+The app is deployed at: 🔗https://amai-focus-time.netlify.app/
+
 ## ✨ Future Improvements
 
 Add Session
