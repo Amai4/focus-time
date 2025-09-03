@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+}
+
+h2.focus {
+  text-align: center;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 500;
+  text-shadow: 1px 1px 2px var(--main-dark, rgba(0, 121, 151, 1));
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 121, 151, 1);
+}
+
+p {
+  font-size: 1.2em;
+  text-shadow: 1px 1px 2px rgba(0, 121, 151, 1);
+}
+
+p.BreakRecom {
+  font-style: italic;
+  color: var(--main-dark, rgba(255, 255, 255, 0.800));
+    text-shadow: 1px 1px 2px rgba(68, 68, 68, 0.842);
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  text-shadow: 1px 1px 2px var(--main-dark, rgb(0, 172, 146));
+}
+
+.timer {
+  font-size: 6em;
+}
+
+.home {
+  text-align: center;
+  margin: 10%;
+}
+
+.info-text {
+  max-width: 900px;
+  transition: 0.5s;
+}
+
+.info-text:hover {
+  color: rgba(255, 255, 255, 0.950);
+
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

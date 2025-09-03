@@ -1,0 +1,104 @@
+body,
+#root {
+
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: var(--main-text, rgba(255, 255, 255, 0.800));
+  background-color: var(--main-bg, rgb(0, 172, 146));
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  width: 95%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  background: var(--main-bg, rgb(0, 172, 146));
+  color: var(--main-text, #fff);
+}
+
+.footer-button {
+  font-size: 0.9em;
+  text-shadow: 0.7px 0.7px 1.2px var(--main-bg, rgb(0, 172, 146));
+}
+
+button {
+  border: 1px solid var(--main-dark, rgba(0, 121, 151, 1));
+  color: var(--main-dark, rgba(0, 121, 151, 1));
+  background-color: var(--main-text, rgba(255, 255, 255, 0.800));
+  text-shadow: 0.8px 0.8px 1px var(--main-bg, rgb(0, 172, 146));
+}
+
+button:hover {
+  border-color: var(--main-light, white);
+  color: white;
+  background-color: var(--main-dark, rgba(0, 121, 151, 1))
+}
+
+.form .MuiInputLabel-root.Mui-focused {
+  color: var(--main-dark, #00ccae) !important;
+}
+
+.form {
+  color: var(--main-text);
+  background: var(--main-bg);
+}
+
+/* Label */
+.form .MuiInputLabel-root {
+  color: var(--main-text);
+  text-shadow: 0.7px 0.7px 1.2px var(--main-dark, rgba(0, 121, 151, 1));
+}
+
+/* Input Outlined */
+.form .MuiOutlinedInput-root {
+  color: var(--main-text);
+  background: var(--main-bg);
+  text-shadow: 0.7px 0.7px 1.2px var(--main-dark, rgba(0, 121, 151, 1));
+}
+
+.form .MuiOutlinedInput-root fieldset {
+  border-color: var(--main-text);
+}
+
+.form .MuiOutlinedInput-root:hover fieldset {
+  border-color: var(--main-dark, #00ccae);
+}
+
+.form .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: var(--main-dark, #00ccae);
+}
+
+/* Select icon */
+.form .MuiSelect-icon {
+  color: var(--main-text);
+  text-shadow: 0.7px 0.7px 1.2px var(--main-dark, rgba(0, 121, 151, 1));
+}
+
+/* Menu items */
+.form .MuiMenuItem-root {
+  color: var(--main-text);
+  background: var(--main-bg);
+  text-shadow: 0.7px 0.7px 1.2px var(--main-dark, rgba(0, 121, 151, 1));
+}
+
+.form .MuiMenuItem-root.Mui-selected {
+  background: var(--main-dark, #00ccae);
+  color: var(--main-text);
+  text-shadow: 0.7px 0.7px 1.2px var(--main-dark, rgba(0, 121, 151, 1));
+}
+
+.form .MuiMenuItem-root:hover {
+  background: var(--main-dark, #00ccae);
+  color: var(--main-text);
+}
