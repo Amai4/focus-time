@@ -6,7 +6,7 @@ body,
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  color: var(--main-text, rgba(255, 255, 255, 0.800));
+  color: var(--main-text, rgba(255, 255, 255, 0.850));
   background-color: var(--main-bg, rgb(0, 172, 146));
 }
 
